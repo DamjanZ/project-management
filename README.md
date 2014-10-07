@@ -15,8 +15,7 @@ Guide to start application
 6. Port 3000 needs to be available on machine, cause that is port which will web server use.
 6. From project root in console, run command "lein repl"
 7. In repl, run command "(start-server)".
-8. Test user for application
-- username: pera, password: pera12
+8. Test user for application - username: pera, password: pera12
  
 ## Libraries used
 - [Ring](https://github.com/ring-clojure/ring) and [Compojure](https://github.com/weavejester/compojure) - Used for server manipulation
