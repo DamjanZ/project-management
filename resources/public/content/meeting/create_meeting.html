@@ -1,0 +1,53 @@
+<div class="container form-container">
+    <h1 class="text-center">Create Meeting</h1>
+
+    <form class="form-horizontal">
+        <fieldset>
+            
+            <!-- Project -->
+            <div class="control-group">
+                <label class="control-label" for="Project name">Project name</label>
+                <select class="form-control" name="m_project">
+                    <option class="option-control"></option>
+                </select>
+            </div>
+            
+            <!-- Meeting name-->
+            <div class="control-group">
+                <label class="control-label" for="m_name">Meeting name</label>
+                <div class="controls">
+                    <input name="m_name" placeholder="your project name here..." class="form-control" required="" type="text">
+
+                </div>
+            </div>
+            
+            <!-- Date -->
+            <div class="control-group">
+                <label class="control-label" for="m_date">Date (yyyy-MM-dd)</label>
+                <div class="controls">
+                    <input name="m_date" placeholder="enter date..." class="form-control" type="text">
+                </div>
+            </div>
+            
+            <!-- Meeting location -->
+            <div class="control-group">
+                <label class="control-label" for="m_location">Meeting location</label>
+                <div class="controls">
+                    <input name="m_location" placeholder="enter location..." class="form-control" type="text">
+                </div>
+            </div>
+            
+            <!-- Report -->
+            <div class="control-group">
+                <label class="control-label" for="m_report">Report</label>
+                <div class="controls">                     
+                    <textarea class="form-control" name="m_report"></textarea>
+                </div>
+            </div>
+            <br/>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" name="m_submit">Create meeting</button>
+
+        </fieldset>
+    </form>
+</div>
+

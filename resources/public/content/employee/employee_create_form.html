@@ -1,0 +1,99 @@
+<div class="container form-container">
+    <h1 class="text-center">New employee</h1>
+
+    <form class="form-horizontal">
+        <fieldset>
+            
+            <!-- Employee name-->
+            <div class="control-group">
+                <label class="control-label" for="e_name">Name</label>
+                <div class="controls">
+                    <input name="e_name" placeholder="Insert name here..." id="eidname" class="form-control" required="" type="text">
+                </div>
+            </div>
+            
+            <!-- Employee surname-->
+            <div class="control-group">
+                <label class="control-label" for="e_surname">Surname</label>
+                <div class="controls">
+                    <input name="e_surname" placeholder="Insert surname here..." id="eidsurname" class="form-control" required="" type="text">
+                </div>
+            </div>
+            
+            <!-- Gender -->
+            <div class="control-group">
+                <label class="control-label" for="e_gender">Gender</label>
+                <select class="form-control" id="eidgender" name="e_gender">
+                    <option class="gender-option"></option>
+                </select>
+            </div>
+            
+            <!-- Work position -->
+            <div class="control-group">
+                <label class="control-label" for="e_position">Work position</label>
+                <input name="e_position" id="eiposition" placeholder="enter position..." class="form-control" type="text">
+            </div>
+
+            <!-- Date when employed -->
+            <div class="control-group">
+                <label class="control-label" for="e_date_employed">Date when employed (yyyy-MM-dd)</label>
+                <input name="e_date_employed" id="eidate" placeholder="enter date..." class="form-control" type="text">
+            </div>
+            
+            <!-- Telephone number -->
+            <div class="control-group">
+                <label class="control-label" for="e_phone">Telephone number</label>
+                <div class="controls">                     
+                    <input name="e_phone" id="eiphone" placeholder="enter phone number..." class="form-control" type="text" value="+381">
+                </div>
+            </div>
+            
+            <!-- Salary -->
+            <div class="control-group">
+                <label class="control-label" for="e_salary">Salary</label>
+                <div class="controls">                     
+                    <input name="e_salary" id="eisalary" placeholder="enter salary..." class="form-control" type="text">
+                </div>
+            </div>
+            
+            <!-- Postal code -->
+            <div class="control-group">
+                <label class="control-label" for="e_post_num">Postal code</label>
+                <select class="form-control" name="e_post_num">
+                    <option class="option-control"></option>
+                </select>
+            </div>
+            
+            <!-- Date of birth -->
+            <div class="control-group">
+                <label class="control-label" for="dateofbirth">Date of birth (yyyy-MM-dd)</label>
+                <div class="controls">                     
+                    <input name="dateofbirth" id="eibirth" placeholder="enter birthday..." class="form-control" type="text">
+                </div>
+            </div>
+            
+            <!-- Address -->
+            <div class="control-group">
+                <label class="control-label" for="street">Address (street)</label>
+                <div class="controls">                     
+                    <input name="street" id="eistreet" placeholder="enter address..." class="form-control" type="text">
+                </div>
+            </div>
+            
+            <!-- Address 2 -->
+            <div class="control-group">
+                <label class="control-label" for="streetno">Address (number of the street)</label>
+                <div class="controls">                     
+                    <input name="streetno" id="eistrno" placeholder="enter street number..." class="form-control" type="text">
+                </div>
+            </div>
+
+            <div id="gradio">
+            </div>
+            <br/>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Create employee</button>
+            
+        </fieldset>
+    </form>
+</div>
+

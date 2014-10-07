@@ -1,0 +1,49 @@
+<h1 class="text-center">Create Project</h1>
+
+<form class="form-horizontal">
+	<fieldset>
+
+		<div class="control-group">
+
+	        <label class="control-label" for="Project name">Project name</label>
+	        <div class="controls">
+	            <input name="p_name" id="cProjectName" placeholder="your project name here..." class="form-control" required="" type="text">
+	        </div>
+    	</div>
+
+        <!-- Description -->
+        <div class="control-group">
+
+            <label class="control-label" for="Project Description">Project Description</label>
+            <div class="controls">                     
+                <textarea class="form-control" name="p_desc" id="cProjectDesc"></textarea>
+            </div>
+        </div>
+
+        <!-- Date of start-->
+        <div class="control-group">
+            <label class="control-label" for="start">Date of start</label>
+            <div class="controls">
+                <input name="start" name="p_start_d" id="cProjectStartD" placeholder="Enter date of start..." class="form-control" type="date">
+            </div>
+        </div>
+                                        
+        <!-- Project end date -->
+        <div class="control-group">
+            <label class="control-label" for="deadline">Project end date</label>
+            <div class="controls">
+                <input name="p_end_d" id="cProjectEndD" placeholder="enter your deadline..." class="form-control" type="date">
+            </div>
+        </div>
+        
+        <!-- Budget -->
+        <div class="control-group">
+            <label class="control-label" for="Budget">Budget</label>
+            <div class="controls">
+                <input name="p_budget" id="cProjectBudget" placeholder="enter your budget..." class="form-control" type="number">
+            </div>
+        </div>
+        <br/>
+		<button class="btn btn-lg btn-primary btn-block" type="submit" name="p_submit">Create project</button>
+	</fieldset>
+</form>
