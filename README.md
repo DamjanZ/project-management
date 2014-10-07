@@ -1,11 +1,3 @@
-# project-management
-
-A ClojureScript app to ... well, that part is up to you.
-
-## Usage
-
-FIXME
-
 #Project-Management
 
 Project-management is Clojure application designed for managing with projects in single company.
@@ -23,6 +15,8 @@ Guide to start application
 6. Port 3000 needs to be available on machine, cause that is port which will web server use.
 6. From project root in console, run command "lein repl"
 7. In repl, run command "(start-server)".
+8. Test user for application
+- username: pera, password: pera12
  
 ## Libraries used
 - [Ring](https://github.com/ring-clojure/ring) and [Compojure](https://github.com/weavejester/compojure) - Used for server manipulation
@@ -33,6 +27,7 @@ Guide to start application
 - [clj-time](https://github.com/KirinDave/clj-time) - A date and time library for Clojure, wrapping the [Joda Time](http://joda-time.sourceforge.net/) library.
 - [Sandbar](https://github.com/brentonashworth/sandbar) - Used with Ring and Compojure
 - [Clojurescript](https://github.com/clojure/clojurescript) - Javascript compiler, using Clojure.
+- [Twitter Bootstrap] (http://getbootstrap.com) - popular HTML, CSS and Javascript framework, used for responsive function and better looking design
 
 ## License
 Distributed under the Eclipse Public License, as Clojure
