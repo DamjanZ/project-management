@@ -1,6 +1,5 @@
 #Project-Management
 ==================
-
 Project-management is Clojure application designed for managing with projects in single company.
 Inended for small companies, users can create new projects, employees that work in company and meetings whitin the active projects.
 User can also edit personal informations about choosen employee.
